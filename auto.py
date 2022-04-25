@@ -4,6 +4,7 @@ import time
 import requests
 import logging
 from lxml import etree
+import random
 
 ###############################################################################
 # 常量设置
@@ -115,6 +116,9 @@ USERs = eval(os.environ['USERs'])
 Flag_successs,responces,data_ps,USERNAMEs,NAMEs= [],[],[],[],[]
 
 for i in range(len(USERs)):
+	if i!=0:
+		time.sleep(random.randint(60,300))
+		#多用户，随机等待60-300s时间防止ip被禁，具体时间待测试
 	# 设置打卡成功flag，默认成功为1
 	Flag_success = 1
 	USERNAME,PASSWORD,NAME,SFZX=USERs[i]
