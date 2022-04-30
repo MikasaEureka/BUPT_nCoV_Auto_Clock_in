@@ -1,8 +1,10 @@
 
 
-# 北邮每日填报自动化
+<h2 align="center">北邮每日填报自动化server酱优化版</h2>
 
-北邮自动疫情打卡
+## 项目参考：
+- [北邮自动疫情打卡](https://github.com/xiao-niu-ren/BUPT_nCoV_Auto_Clock_in)
+- [北邮疫情自动填报（Python+Github Actions）长期维护](https://github.com/zzp-seeker/bupt-ncov-auto-report)
 
 ## 说明
 利用Github提供的Actions完成自动运行脚本的过程
