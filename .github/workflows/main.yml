@@ -32,3 +32,5 @@ jobs:
         USERs: ${{ secrets.USERs }}
         SERVER_KEY: ${{ secrets.SERVER_KEY }}
       run: python auto.py
+      
+    - uses: gautamkrishnar/keepalive-workflow@master # using the workflow with default settings
